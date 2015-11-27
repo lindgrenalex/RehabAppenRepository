@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25°C"
+        android:id="@+id/currentTemperature"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="150dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/up"
+        android:width="400dp"
+        android:height="200dp"
+        android:id="@+id/temperatureUp"
+        android:layout_above="@+id/currentTemperature"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/down"
+        android:width="400dp"
+        android:height="200dp"
+        android:id="@+id/temperatureDown"
+        android:layout_below="@+id/currentTemperature"
+        android:layout_alignStart="@+id/temperatureUp"
+        />
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:textSize="26dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/btnSpeak"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/ic_microphone_black_48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
