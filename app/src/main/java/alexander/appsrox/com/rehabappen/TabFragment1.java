@@ -98,7 +98,6 @@ public class TabFragment1 extends Fragment {
                 }
                 break;
             }
-
         }
     }
 }

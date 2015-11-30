@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RehabAppen.iml" filepath="$PROJECT_DIR$/RehabAppen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RehabAppenRepository.iml" filepath="$PROJECT_DIR$/RehabAppenRepository.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
