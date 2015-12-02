@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="25°C"
+        android:text="24°C"
         android:id="@+id/currentTemperature"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -16,6 +18,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:background="@drawable/up"
         android:width="400dp"
         android:height="200dp"
@@ -32,24 +35,6 @@
         android:id="@+id/temperatureDown"
         android:layout_below="@+id/currentTemperature"
         android:layout_alignStart="@+id/temperatureUp"
-        />
-    <TextView
-        android:id="@+id/txtSpeechInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="result"
-        android:textSize="26dp"
-        android:textStyle="normal"
-        android:layout_below="@+id/btnSpeak"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:id="@+id/btnSpeak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/ic_microphone_black_48dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignEnd="@+id/temperatureUp" />
 
 </RelativeLayout>
